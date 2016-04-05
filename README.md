@@ -132,6 +132,6 @@ Put Aria2 into docker enviroment, and host pc can use JSON-RPC to connect to it 
                 console.log(result);
             });
         });
-        
+
 `node test.js`<p>
 *PS: You'll find 'header_bg.jpg' in your '/home/my_name/downloads' folder.*<p>
