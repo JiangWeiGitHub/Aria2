@@ -30,7 +30,7 @@ Put Aria2 into docker enviroment, and host pc can use JSON-RPC to connect to it 
 
 + Configure Aria2<p>
  - Create & Edit aria2.conf<p>
- `vi ~/.aria2/aria2.conf`<p>
+ `nano ~/.aria2/aria2.conf`<p>
 
           enable-rpc=true
           rpc-listen-all=true
