@@ -52,7 +52,7 @@ Put Aria2 into docker enviroment, and host pc can use JSON-RPC to connect to it 
  `aria2c --conf-path=/home/my_name/.aria2/aria2.conf &`<p>
 
 + Encapsulate Websocket Client<p>
-`nano ./websocket.js`<p>
+ `nano ./websocket.js`<p>
 
         var WebSocketClient = require('websocket').client,
         
@@ -120,7 +120,7 @@ Put Aria2 into docker enviroment, and host pc can use JSON-RPC to connect to it 
         exports.send = send;
 
 + Invoke Websocket Client<p>
-`nano ./test.js`<p>
+ `nano ./test.js`<p>
 
         var websocket = require('./websocket.js');
         
@@ -133,5 +133,5 @@ Put Aria2 into docker enviroment, and host pc can use JSON-RPC to connect to it 
             });
         });
 
-`node test.js`<p>
-*PS: You'll find 'header_bg.jpg' in your '/home/my_name/downloads' folder.*<p>
+ `node test.js`<p>
+ *PS: You'll find 'header_bg.jpg' in your '/home/my_name/downloads' folder.*<p>
